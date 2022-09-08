@@ -664,6 +664,8 @@
 
 #define M600_TIMEOUT 600  //seconds
 
+#define M852_BED_SKEW_COMPENSATION [I] [J] [K] [S]  //Skew compensation [I:XY] [J:XZ] [K:YZ] [S:Aalias for I when enabled] range of -1 to 1
+
 //#define SUPPORT_VERBOSITY
 
 #define MMU_REQUIRED_FW_BUILDNR 83
